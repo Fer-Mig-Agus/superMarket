@@ -1,0 +1,27 @@
+Pagina de Supermercado
+
+menu: 
+home
+compras
+Quienes somos
+contactos
+
+noticias:
+tarjetas con productos mas vendidos hot con deslis mostrando mas productos
+
+muestra de ofertas de la semana
+
+
+seccion de avisos: ejemplos: hoy estara cerrado por feriado nacional
+
+
+footer:
+location del super
+direccion
+pagina oficial logo
+pagina de facebook
+pagina de instagram
+
+
+
+creado por: CodePage S.A
