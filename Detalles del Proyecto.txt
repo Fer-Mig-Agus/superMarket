@@ -1,4 +1,4 @@
-Pagina de Supermercado
+Pagina de Supermercado: SuperMarket
 
 menu: 
 home
