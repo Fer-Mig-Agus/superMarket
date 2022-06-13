@@ -2,30 +2,95 @@
     margin: 0px auto;
     padding: 0px;
 }
-#logocompleto{
+body{
+    background: url("/img/pattern.png");
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas: 
+    "cabecera cabecera cabecera cabecera" 
+    "contenido contenido contenido lateral"
+    "pie pie pie pie"
+    ;
+    width: 100%;
+    height: 1500px;
+    margin: 0px auto;
+    
+}
+
+#cabecera{
+    display: grid;
+    grid-area: cabecera;
+    width: 90%;
+}
+
+#cabecera #logocompleto{
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-areas: "texto logo";
     width: 50%;
     height: 50px;
-    margin: 0px auto;
+    margin-top: 30px;
 }
 
-#logocompleto h1{
+#cabecera #logocompleto h1{
     grid-area: texto;
     width: 60%;
     height: 50px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 315%;
     text-align: center;
     margin-top: 30px;
-    margin-left: 28%;
+    margin-left: 20%;
     color: #00f6f3;
 }
-#logocompleto .logo{
+
+#cabecera #logocompleto a .logo{
     grid-area: logo;
     width: 43%;
     height: auto;
     margin-top: 12px;
     margin-left: 0%;
+}
+
+#header{
+    width: 75%;
+    height: 100px;
+}
+
+#cabecera #header #menu{
+    width: 100%;
+    height: 100%;
+}
+
+#cabecera #header #menu ul{
+    display: grid;
+    grid-template-columns: repeat(4,17%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    list-style: none;
+    margin-top: 15px;
+}
+
+#menu ul li a{
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#menu ul li a:first-child{
+    margin-left: -45%;
+}
+
+#menu ul li a:hover{
+    color: #00f6f3;
+    font-size: 22px;
+    border-bottom: 10px black;
 }
