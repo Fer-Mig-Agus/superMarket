@@ -134,7 +134,59 @@ body{
     border-radius: 0px 30px 0px 30px;
     box-shadow: 0px 0px 5px rgb(135, 135, 135) inset;
     overflow: hidden;
+    background: rgb(237, 237, 237);
 }
+
+#section #carrusel .carrusel-items{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+#carrusel .carrusel-items .tarjeta-por-cuatro{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-right: 0px;
+
+}
+
+
+#carrusel .carrusel-items .flechas-items{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#carrusel .carrusel-items .flechas-items .boton-left{
+    margin-left: -4%;
+}
+
+#carrusel .carrusel-items .flechas-items .boton-right{
+    margin-left: 84%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card{
     width: 200px;
