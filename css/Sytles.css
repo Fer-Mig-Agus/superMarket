@@ -104,18 +104,20 @@ body{
     display: grid;
     grid-area: contenido;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 300px 700px 700px;
+    grid-template-rows: 100px 300px 100px 600px 100px 600px;
     grid-template-areas: 
     "hotsale"
     "seccion-carrusel"
+    "oferta"
     "seccion-oferta"
+    "producto"
     "seccion-producto"
     ;
     width: 100%;
     height: 1900px;
 }
 
-#section h3{
+#section #lo-mas-vendido-h3{
     grid-area: hotsale;
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -197,4 +199,38 @@ body{
     box-shadow: 0px 0px 5px rgb(135, 135, 135) inset;
     border-radius: 7px;
     margin-top: -22px ;
+}
+
+#section #oferta-h3{
+    grid-area: oferta;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b75beb;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 0px 0px 2px #101010;
+}
+
+#section #ofertas{
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+#section #producto-h3{
+    grid-area: producto;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b75beb;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 0px 0px 2px #101010;
+}
+
+#section #productos{
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
 }
