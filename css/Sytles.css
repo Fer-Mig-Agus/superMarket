@@ -146,6 +146,9 @@ body{
     margin-top: 85px;
 
 }
+#section #carrusel .item1{
+    margin-top: 0px;
+}
 
 #carrusel .carrusel-items .tarjeta-por-cuatro{
     display: grid;
