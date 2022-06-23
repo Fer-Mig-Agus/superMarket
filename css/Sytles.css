@@ -528,8 +528,53 @@ body{
     color: #e857b6;
 }
 
+#content #lateral #preguntas{
+    width: 90%;
+    height: 20%;
+    margin-top: -94%;
+}
 
+#content #lateral #preguntas h3{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #de0f96;
+    margin-top: 15px;
+    
+}
 
+#content #lateral #preguntas h5{
+    display: block;
+    background: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+
+}
+#content #lateral #preguntas h5:hover{
+    color: #1960ee;
+    background: white;
+    border:0.5px solid black;
+}
+#content #lateral #preguntas p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#content #lateral #preguntas a{
+    text-decoration: none;
+    color: #de0f96;
+    cursor: pointer;
+}
+#content #lateral #preguntas a:hover{
+    color: #570139;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
